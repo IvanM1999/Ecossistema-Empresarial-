@@ -1,6 +1,6 @@
-🧠🐾 Plataforma Corporativa com Pet IA, Chat Interno e Gestão de Serviços
+🧠 Plataforma Corporativa Inteligente
 
-> Sistema web corporativo com assistente de IA (Pet Virtual), chat interno entre contas, gestão de serviços por setor e controle de almoxarifado, com arquitetura escalável e foco em produtividade e bem‑estar do funcionário.
+> Ecossistema corporativo open source com Assistente Virtual de IA, comunicação interna, gestão de serviços, gestão de insumos, capacitação contínua e arquitetura segura, escalável e multiplataforma.
 
 
 
@@ -9,357 +9,290 @@
 
 📌 Visão Geral
 
-Este projeto propõe uma plataforma corporativa integrada que combina:
+Esta plataforma é um sistema corporativo integrado para produtividade, capacitação e bem‑estar organizacional, desenvolvido com foco em:
 
-Assistente de IA personalizado (“Pet Virtual”) para apoio profissional e emocional no ambiente de trabalho
+Código aberto e gratuito
 
-Chat interno estilo WhatsApp entre contas
+Segurança institucional
 
-Sistema de solicitação de serviços (TI, Manutenção, RH e outros setores)
+Arquitetura escalável
 
-Controle completo de almoxarifado e gestão de materiais
-
-Arquitetura com banco central + banco de réplica para alta disponibilidade
-
-Animações 2D/3D adaptativas conforme capacidade da máquina
+Multiplataforma (Web, Android, iOS, Desktop, IoT)
 
 
-O objetivo é criar um ecossistema único de suporte operacional e humano dentro da empresa.
+Principais módulos:
 
+🤖 Assistente Virtual de IA (conselheiro corporativo)
 
----
+💬 Comunicação interna em tempo real
 
-✨ Principais Funcionalidades
+🛠️ Supervisório inteligente de serviços
 
-🐾 Pet Virtual com IA (Conselheiro Pessoal)
+📦 Gestão completa de insumos
 
-Chatbot baseado em IA de código aberto
+📚 Biblioteca Corporativa Avançada
 
-Atuação como:
-
-Assistente de dúvidas internas
-
-Conselheiro pessoal profissional
-
-Apoio emocional no contexto corporativo
-
-
-Baseado em:
-
-Fontes abertas de estudos em psicologia
-
-Conteúdo treinado e supervisionado
-
-
-
-Modos de Animação
-
-Modo 2D (leve)
-
-Para máquinas fracas e navegadores simples
-
-Canvas / SVG / Lottie
-
-
-Modo 3D (avançado)
-
-Para aplicações desktop e máquinas mais potentes
-
-Suporte a:
-
-Linux
-
-Windows
-
-macOS
-
-
-Tecnologias sugeridas: Three.js / Babylon.js
-
+🎓 Academia Corporativa de Cursos Livres
 
 
 
 ---
 
-💬 Chat Interno Entre Contas
+🎯 Objetivos do Projeto
 
-Mensagens em tempo real entre funcionários
+Centralizar serviços corporativos em uma única plataforma
 
-Funcionalidades:
+Melhorar produtividade e qualidade de vida no trabalho
 
-Conversas privadas
+Oferecer capacitação contínua gratuita com certificação
+
+Garantir segurança, governança e rastreabilidade
+
+Permitir evolução futura para IA institucional própria
+
+
+
+---
+
+✨ Funcionalidades Principais
+
+🤖 Assistente Virtual de IA
+
+Assistente corporativo de código aberto com funções de:
+
+Apoio a dúvidas internas
+
+Organização pessoal e profissional
+
+Orientação emocional no contexto de trabalho
+
+Geração de relatórios pessoais de aprendizado
+
+
+Banco de Memória Cognitiva
+
+Banco textual dedicado por usuário:
+
+Histórico de conversas
+
+Resumos automáticos
+
+Relatórios de evolução
+
+
+Características:
+
+Isolamento lógico por usuário
+
+Criptografia completa
+
+Exportação em PDF
+
+Uso não avaliativo
+
+
+
+---
+
+💬 Comunicação Interna
+
+Chat corporativo em tempo real usando APIs open source:
+
+WebSocket
+
+Matrix
+
+XMPP
+
+
+Recursos:
+
+Mensagens privadas e em grupo
 
 Grupos por setor
 
 Histórico persistente
 
-Integração com solicitações de serviço
-
-
-
-
----
-
-🛠️ Sistema de Solicitação de Serviços
-
-Dividido por setores:
-
-Setores iniciais
-
-💻 TI (Tecnologia da Informação)
-
-🔧 Manutenção
-
-🧑‍💼 RH (Recursos Humanos)
-
-
-Setores adicionais sugeridos
-
-📦 Almoxarifado / Logística
-
-🏢 Infraestrutura / Facilities
-
-🔐 Segurança Patrimonial
-
-📑 Financeiro / Compras
-
-🧾 Administrativo
-
-
-Funcionalidades:
-
-Abertura de chamados
-
-Classificação automática por IA
-
-Encaminhamento por setor
-
-Status em tempo real
-
-Histórico por usuário e setor
+Integração com chamados
 
 
 
 ---
 
-📚 Biblioteca Corporativa (Livros, Filmes e Conteúdos)
+🛠️ Supervisório Inteligente de Serviços
 
-Plataforma interna de capacitação contínua:
+Sistema de chamados com apoio de IA:
 
-Biblioteca digital com:
+Criação manual ou assistida
 
-📖 Livros técnicos e comportamentais
+Classificação automática
 
-🎬 Filmes e documentários educacionais
+Definição inteligente de prioridade
 
-📄 Artigos e papers
-
-
-
-Funcionalidades:
-
-Catálogo por área (TI, RH, liderança, saúde mental, etc.)
-
-Sistema de recomendação via IA (integrado ao Pet)
-
-Progresso de leitura / visualização
-
-Favoritos e listas pessoais
+SLA e monitoramento
 
 
+Setores suportados
 
----
+TI
 
-🎓 Plataforma de Cursos Livres com Certificação
+Manutenção
 
-Sistema interno de cursos baseados em dados estruturados (JSON):
+RH
 
-Estrutura dos cursos
+Financeiro
 
-Cada curso descrito em arquivos JSON:
+Gerência Geral
 
-Título
+Gestão de Insumos
 
-Descrição
+Infraestrutura
 
-Área
+Segurança Patrimonial
 
-Carga horária
+Administrativo
 
-Módulos e aulas
-
-Links externos gratuitos
-
-Tipo de certificação
-
-
-
-Características
-
-Apenas cursos gratuitos
-
-Cursos com:
-
-Certificação automática
-
-Certificação por parceiro
-
-Declaração de conclusão
-
-
-
-Funcionalidades
-
-Catálogo dinâmico carregado por JSON
-
-Matrícula interna
-
-Controle de progresso
-
-Avaliações automáticas
-
-Emissão de certificados em PDF
-
-Histórico de capacitações por funcionário
+Zeladoria Patrimonial
 
 
 
 ---
 
-📦 Controle de Almoxarifado e Materiais
+📦 Gestão Completa de Insumos
 
-Cadastro de materiais
+Módulo corporativo de almoxarifado:
+
+Cadastro de insumos e materiais
 
 Controle de estoque em tempo real
 
-Solicitação de materiais integrada aos chamados
+Solicitações integradas aos chamados
 
-Relatórios:
+Controle por centro de custo
 
-Entrada / saída
+Alertas automáticos de reposição
 
-Consumo por setor
-
-Alertas de estoque mínimo
-
+Relatórios gerenciais
 
 
 
 ---
 
-🗄️ Arquitetura de Bancos de Dados
+📚 Biblioteca Corporativa Avançada
 
-Banco Principal (Centralizado)
+Centro institucional de conhecimento:
+
+Livros técnicos e comportamentais
+
+Filmes e documentários educacionais
+
+Artigos científicos
+
+Guias internos
+
+
+Recursos:
+
+Trilhas por cargo e setor
+
+Recomendações por IA
+
+Progresso individual
+
+Avaliação e curadoria institucional
+
+
+
+---
+
+🎓 Academia Corporativa
+
+Plataforma de cursos livres baseada em JSON:
+
+Apenas cursos gratuitos
+
+Certificação automática em PDF
+
+Trilhas de aprendizagem
+
+Gamificação corporativa
+
+Histórico permanente de capacitação
+
+
+
+---
+
+🏗️ Arquitetura Geral
+
+Frontend (Web / Mobile / Desktop)
+   ├─ UI Corporativa
+   ├─ Assistente Virtual
+   ├─ Chat Interno
+   ├─ Supervisório de Serviços
+   └─ Academia + Biblioteca
+
+Backend (API Principal)
+   ├─ Autenticação e RBAC
+   ├─ Motor de Chamados
+   ├─ Orquestrador de IA
+   ├─ Gestão de Insumos
+   └─ Relatórios
+
+IA Engine (Open Source)
+   ├─ Modelo principal (Mistral / LLaMA)
+   ├─ Memória Cognitiva
+   └─ Módulo de Priorização
+
+Bases de Dados
+   ├─ Base Mestra (PostgreSQL)
+   └─ Base Espelhada (Cloudflare)
+
+
+---
+
+🗄️ Arquitetura de Dados Elegante
+
+🥇 Base Mestra
+
+PostgreSQL (Render)
+
 
 Responsável por:
 
-Usuários
+Usuários e permissões
 
-Conversas
+Chamados e setores
 
-Chamados
+Chat interno
 
-Psicoperfis do Pet IA
-
-Estoque e materiais
+Cursos, biblioteca e certificados
 
 
-Banco Secundário (Réplica / Backup)
 
-Sincronização contínua
+---
+
+🪞 Base Espelhada (Continuidade Operacional)
+
+Cloudflare D1 / R2
+
+
+Funções:
+
+Réplica criptografada
+
+Backup contínuo
 
 Failover automático
 
-Recuperação de desastres
 
+Benefícios:
 
-Tecnologias sugeridas:
+Alta disponibilidade
 
-PostgreSQL + Streaming Replication
+Recuperação rápida
 
-MySQL + Replica
-
-MongoDB + Replica Set
-
-
-
----
-
-🏗️ Arquitetura Geral do Sistema
-
-Frontend (Web / Desktop)
-   ├─ UI Corporativa
-   ├─ Pet IA (2D / 3D)
-   ├─ Chat Interno
-   └─ Painel de Serviços
-
-Backend (API Principal)
-   ├─ Autenticação
-   ├─ Motor de Chamados
-   ├─ Integração com IA
-   ├─ Controle de Estoque
-   └─ Gerenciador de Setores
-
-IA Engine (Open Source)
-   ├─ LLM local ou híbrido
-   ├─ Base de psicologia
-   └─ Módulo de aconselhamento
-
-Bancos de Dados
-   ├─ DB Principal
-   └─ DB Réplica
-
-
----
-
-🧩 Stack 100% Código Aberto e Gratuito
-
-Todo o projeto será construído exclusivamente com tecnologias open source e gratuitas, evitando dependências proprietárias.
-
-Frontend
-
-HTML5 / CSS3 / TypeScript
-
-React ou Vue (MIT)
-
-Three.js / Babylon.js (3D)
-
-Lottie / Canvas (2D)
-
-
-Backend
-
-Node.js + NestJS ou Python + FastAPI
-
-WebSocket open source
-
-
-IA
-
-Modelos open source:
-
-LLaMA
-
-Mistral
-
-Phi
-
-
-Frameworks:
-
-LangChain
-
-Haystack
-
-
-
-Banco de Dados
-
-PostgreSQL
-
-MySQL
-
-Redis
+Redução de risco operacional
 
 
 
@@ -367,9 +300,10 @@ Redis
 
 ☁️ Hospedagem e Infraestrutura
 
-Hospedagem Principal
+Plataforma
 
-Plataforma: Render.com
+Render.com
+
 
 Serviços:
 
@@ -380,353 +314,182 @@ Frontend Web
 Workers de IA
 
 
+Pipeline Linux / WSL
 
-Banco de Dados
+Build unificado em Shell Linux:
 
-Estratégia de alta segurança:
-
-Banco principal:
-
-Render PostgreSQL ou MySQL
-
-
-Banco de réplica / backup:
-
-Cloudflare (D1 / R2 / backup externo)
+npm run build:web
+npm run build:android
+npm run build:ios
+npm run build:desktop
 
 
+---
 
-Benefícios:
+📱🖥️ Multiplataforma e IoT
 
-Alta disponibilidade
+Web (SPA / PWA)
 
-Isolamento de dados
+Android (Capacitor)
 
-Recuperação rápida de desastres
+iOS (Capacitor)
+
+Desktop (Tauri)
+
+IoT corporativo (futuro)
 
 
 
 ---
 
-👥 Modelo Inicial de Usuários e Permissões (RBAC)
+👥 Modelo de Usuários e Governança
 
-Sistema de controle de acesso pronto para uso corporativo.
+Sistema RBAC escalável.
 
-Usuários iniciais
+Perfis iniciais
 
-Total inicial: 15 usuários
+👑 Administrador Geral (1)
 
-👑 1 Administrador Geral
+🧠 Supervisores Setoriais (≥ 12)
 
-🧠 9 Usuários Mestres (Supervisores)
+✍️ Gestores de Conteúdo (≥ 6)
 
-✍️ 5 Gestores de Conteúdo
+👤 Usuários Corporativos (ilimitado)
 
 
+Permissões controladas por:
 
----
+Papéis no banco
 
-Perfis e responsabilidades
+Middleware por rota
 
-👑 Administrador Geral
-
-Controle total do sistema
-
-Criar / editar / remover usuários
-
-Definir permissões e papéis
-
-Supervisionar IA, dados e segurança
+Logs de auditoria
 
 
 
 ---
 
-🧠 Usuários Mestres (9)
+🧩 Estratégia de IA
 
-Criar e editar usuários comuns
+Fase inicial
 
-Definir acessos por setor
+Um único modelo open source
 
-Supervisionar chamados e atendimentos
-
-Moderar chat interno
-
-Acompanhar relatórios globais
+Mistral ou LLaMA
 
 
 
----
+Evolução futura
 
-✍️ Gestores de Conteúdo (5)
+Múltiplos modelos especializados
 
-Responsáveis por:
+Treinamento institucional
 
-Blog corporativo
-
-Plataforma de cursos
-
-Biblioteca de livros e filmes
-
-
-Permissões:
-
-Criar / editar / remover posts
-
-Gerenciar cursos em JSON
-
-Publicar e organizar conteúdos
-
-Emitir e revisar certificados
+IA corporativa própria
 
 
 
 ---
 
-👤 Usuários Comuns
+🔐 Segurança, Governança e Qualidade
 
-Acesso ao Pet IA
+Pilares da Segurança da Informação
 
-Abrir chamados
+Confidencialidade
 
-Usar chat interno
+Integridade
 
-Participar de cursos
-
-Consultar biblioteca
+Disponibilidade
 
 
+Boas práticas adotadas
 
----
+Criptografia em trânsito e em repouso
 
-Estrutura de Permissões (Pronta para Produção)
-
-RBAC (Role Based Access Control)
-
-Papéis configuráveis no banco
-
-Middleware de autorização por rota
-
-Logs de auditoria por ação crítica
-
-
-
----
-
-🔐 Privacidade, Ética e Segurança
-
-Dados psicológicos isolados e criptografados
+Isolamento de dados sensíveis
 
 Logs auditáveis
 
-Controle de acesso por perfil
-
-IA restrita ao contexto corporativo
-
-Nenhum uso para avaliação punitiva de funcionários
+Backup automático
 
 
+Normas de referência
 
----
+ISO 27001 – Segurança da Informação
 
-📦 Estratégia Web‑First e Empacotamento Multiplataforma
+ISO 9001 – Qualidade
 
-Este projeto será desenvolvido 100% como aplicação web e posteriormente empacotado para múltiplas plataformas:
+ITIL – Gestão de Serviços
 
-🌐 Camada Principal — Web
-
-Aplicação única (SPA/PWA)
-
-Executa diretamente em navegadores modernos
-
-Base comum para todas as plataformas
-
-
-Benefícios:
-
-Um único código‑fonte
-
-Atualizações centralizadas
-
-Menor custo de manutenção
+OWASP Top 10 – Segurança Web
 
 
 
 ---
 
-📱 Empacotamento para Android (APK)
-
-Estratégia:
-
-Converter a aplicação web em app nativo usando:
-
-Capacitor
-
-Cordova
-
-Android WebView
-
-
-
-Funcionalidades:
-
-Modo offline
-
-Notificações push
-
-Acesso a hardware (se necessário)
-
-Distribuição interna via APK ou Play Store corporativa
-
-
-
----
-
-🖥️ Empacotamento para Desktop (Linux / Windows / macOS)
-
-Estratégia principal:
-
-Uso de empacotadores multiplataforma:
-
-Tauri (preferencial, leve e moderno)
-
-Electron (alternativa)
-
-
-
-Geração de:
-
-App para Linux
-
-App para Windows
-
-App para macOS
-
-
-
----
-
-🐧 Pipeline com WSL + Shell Linux
-
-Todo o processo de build será padronizado em ambiente Linux:
-
-Desenvolvimento e build usando:
-
-WSL no Windows
-
-Shell Linux nativo no Linux e macOS
-
-
-
-Exemplo de fluxo:
-
-# Build web
-npm run build
-
-# Gerar APK
-npm run android:build
-
-# Gerar apps desktop
-npm run desktop:build
-
-Benefícios:
-
-Builds reproduzíveis
-
-Automação via CI/CD
-
-Ambiente único de compilação
-
-
-
----
-
-🔄 CI/CD Multiplataforma (Futuro)
-
-Pipeline automatizado:
-
-Build Web
-
-Empacotamento Android
-
-Empacotamento Desktop
-
-Publicação automática
-
-
-Ferramentas sugeridas:
-
-GitHub Actions
-
-Docker
-
-Shell scripts padronizados
-
-
-
----
-
-⚙️ Tecnologias Sugeridas
+⚙️ Stack Tecnológico (100% Open Source)
 
 Frontend
 
-HTML5 / CSS3 / TypeScript
+React ou Vue
 
-React / Vue / Svelte
+TypeScript
 
-Three.js / Babylon.js (3D)
+Tailwind / CSS moderno
 
-Lottie / Canvas (2D)
+Three.js / Babylon.js
 
 
 Backend
 
-Node.js (NestJS) ou Python (FastAPI)
+FastAPI ou NestJS
 
-WebSocket para chat em tempo real
-
-
-IA
-
-LLMs open source:
-
-LLaMA
-
-Mistral
-
-Phi
-
-
-Frameworks:
-
-LangChain
-
-Haystack
-
+WebSocket
 
 
 Banco de Dados
 
-PostgreSQL / MySQL
+PostgreSQL (principal)
 
-Redis (cache e sessões)
+Redis (cache e filas)
+
+
+IA
+
+Mistral / LLaMA
+
+LangChain / Haystack
 
 
 
 ---
 
-🚀 Instalação (Futuro)
+📁 Estrutura Inicial de Pastas
 
-git clone https://github.com/seu-usuario/pet-ia-corporativo
-cd pet-ia-corporativo
+root/
+ ├─ frontend/
+ ├─ backend/
+ ├─ ia-engine/
+ ├─ database/
+ ├─ scripts/
+ ├─ docs/
+ └─ docker/
+
+
+---
+
+🚀 Instalação (Modo Desenvolvimento)
+
+git clone https://github.com/seu-usuario/plataforma-corporativa
+cd plataforma-corporativa
 
 # Backend
 cd backend
-npm install
-npm run dev
+pip install -r requirements.txt
+uvicorn main:app
 
 # Frontend
-cd frontend
+cd ../frontend
 npm install
 npm run dev
 
@@ -735,23 +498,23 @@ npm run dev
 
 🗺️ Roadmap
 
-[ ] Autenticação e perfis
+[ ] Autenticação e RBAC
 
-[ ] Chat interno básico
+[ ] Chat interno
 
-[ ] Sistema de chamados por setor
+[ ] Supervisório com IA
 
-[ ] Controle de almoxarifado
+[ ] Gestão de insumos
 
-[ ] Integração inicial com IA
+[ ] Assistente virtual básico
 
-[ ] Pet 2D funcional
+[ ] Biblioteca corporativa
 
-[ ] Pet 3D experimental
+[ ] Academia corporativa
 
-[ ] Sistema de réplica de banco
+[ ] Empacotamento multiplataforma
 
-[ ] Painéis administrativos
+[ ] Monitoramento e métricas
 
 
 
@@ -759,7 +522,7 @@ npm run dev
 
 🤝 Contribuição
 
-Contribuições são bem‑vindas.
+Contribuições são bem‑vindas:
 
 1. Fork o projeto
 
@@ -779,49 +542,45 @@ Contribuições são bem‑vindas.
 
 📄 Licença
 
-Este projeto será distribuído sob licença MIT / Apache 2.0 (a definir).
+Licença open source:
+
+MIT ou
+
+Apache 2.0
+
 
 
 ---
 
 🧩 Status do Projeto
 
-📍 Fase: Arquitetura e Planejamento
+📍 Fase atual: Arquitetura e Planejamento Avançado
 
-Este repositório contém a especificação inicial e servirá como base para o desenvolvimento completo da plataforma.
+Este repositório define a base institucional de uma plataforma corporativa inteligente de próxima geração.
 
+README completo gerado e atualizado no canvas.
 
----
+Inclui agora:
 
-Se este projeto te interessou, ⭐ marque o repositório e acompanhe a evolução.
+Visão institucional clara
 
-Atualização aplicada no README no canvas:
+Objetivos do projeto
 
-Definição formal de stack 100% open source e gratuita
+Descrição detalhada de todos os módulos
 
-Arquitetura de hospedagem com Render + Cloudflare
+Arquitetura geral e de dados
 
-Modelo inicial de usuários configurado:
+Estratégia de IA
 
-1 Administrador geral
+Multiplataforma + IoT
 
-9 Mestres (supervisores)
+Modelo de governança e usuários
 
-5 Gestores de conteúdo
+Stack 100% open source
 
+Estrutura de pastas
 
-Sistema de permissões RBAC pronto para produção
+Instalação inicial
 
+Roadmap, contribuição e licença
 
-Se quiser elevar o nível enterprise, posso adicionar:
-
-Estrutura de tabelas de usuários e permissões (SQL)
-
-Fluxo de criação de usuários e onboarding
-
-Política de backup automático e retenção de dados
-
-Seção “Arquitetura de Segurança Zero-Trust”
-
-
-Produto já está com cara de SaaS corporativo sério.
